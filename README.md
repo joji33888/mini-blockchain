@@ -30,7 +30,7 @@ Run the script:
    python blockchain.py
    ```
 
-Usage
+# Usage
 
 The script automatically creates a blockchain with a genesis block.
 
@@ -40,11 +40,11 @@ The program prints the full blockchain and validates its integrity.
 
 Tampering with a block’s data will be detected by the validation function.
 
-Tampering Demonstration
+# Tampering Demonstration
 
 Modify any block’s data in the chain (for example, "First real block" to "HACKED"). Running the script will show that the chain integrity is broken, illustrating blockchain immutability.
 
-The blockchain can be improved in a number of ways:
+# The blockchain can be improved in a number of ways:
 
  Boost difficulty: To replicate a true proof-of-work system, change the diff prefix to make mining more difficult.
 
