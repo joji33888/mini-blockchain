@@ -40,3 +40,20 @@ The program prints the full blockchain and validates its integrity.
 
 Tampering with a block’s data will be detected by the validation function.
 
+Tampering Demonstration
+
+Modify any block’s data in the chain (for example, "First real block" to "HACKED"). Running the script will show that the chain integrity is broken, illustrating blockchain immutability.
+
+The blockchain can be improved in a number of ways:
+
+ Boost difficulty: To replicate a true proof-of-work system, change the diff prefix to make mining more difficult.
+
+ Calculate mining time: Keep track of and show how long it takes to mine each block.
+
+ Average nonce count: Display data on the number of nonces required for each block in order to satisfy difficulty.
+
+ Add transactions: Use transaction records (sender, recipient, amount) in place of plain string data.
+
+ Persistent storage: To preserve state, save the blockchain to a file or database and then reload it.
+
+ Network replication: To mimic a distributed blockchain, expand to several nodes interacting via the network.
