@@ -21,12 +21,14 @@ This project implements a **minimal blockchain** in Python to illustrate fundame
 
 Navigate to the project folder:
 
-cd mini-blockchain
-
+   ```bash
+   cd mini-blockchain
+   ```
 
 Run the script:
-
-python blockchain.py
+   ```bash
+   python blockchain.py
+   ```
 
 Usage
 
