@@ -1,0 +1,47 @@
+Project Description
+
+This project is a basic blockchain written in Python to understand the importance of blockchain technology through hashing, blocks, mining (proof-of-work) and chain checking.
+
+Main Concepts Introduced
+
+Block A structure for a block consists of
+
+an index (where it is in the chain),
+
+a timestamp (when it was created),
+
+data (what is within the block which can be anything) as well as
+
+the previous hash (the hash of the block before it in order to keep the integrity of the chain).
+
+The nonce (how many times the algorithm has been run to mine for a block) and its hash (the sha256 of the block).
+
+Hashing
+
+Block hashes are created using a built-in method called hashlib.sha256() for Python. The hash is reimplemented when the nonce changes during the mining process to achieve the difficulty required. This keeps data intact because if you ever change something in a block, it will change its hash.
+
+Proof-of-Work
+
+Mining is represented by incrementing the nonce until the final sha256 of the block starts with predetermined integers (like "00"). This means that it will take a certain amount of time/computational effort to mine a block which shows that it's verified.
+
+The Blockchain
+
+The blockchain itself is essentially a list of blocks in Python with methods, including:
+
+make_genesis(): to make the first entry in the chain,
+
+add_block(data): to add more entries into the chain and mine those and
+
+check_chain(): to check the integrity of the chain from start to finish.
+
+Validation
+
+This blockchain checks that the previous hash in one block matches up to the hash created in another block, that the hashing of blocks meets the difficulty requirement and that all hashes rehashed from stored ones meet expected changes.
+
+How it Shows Tampering
+
+The program indicates how the chain becomes broken if someone tampers with it. If someone changes data in a block, check_chain() will show how everything is disconnected, showing one of the elements of blockchain technology (that it's immovable).
+
+Purpose
+
+The purpose of this project is for educational reasons to understand how blockchain works without third party libraries, how blocks are linked and confirmed and how mining works through calculation hashes.
