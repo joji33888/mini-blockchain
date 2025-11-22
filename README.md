@@ -38,9 +38,3 @@ The program prints the full blockchain and validates its integrity.
 
 Tampering with a block’s data will be detected by the validation function.
 
-Project Structure
-mini-blockchain/
-│
-├─ blockchain.py        # Main Python file with blockchain implementation
-├─ README.md            # Project description and instructions
-└─ screenshots/         # Placeholder for mining and chain screenshots
