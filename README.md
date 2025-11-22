@@ -16,7 +16,7 @@ This project implements a **minimal blockchain** in Python to illustrate fundame
 1. Make sure you have Python 3 installed.
 2. Clone this repository:
    ```bash
-   git clone <your-repo-link>
+   git clone <https://github.com/joji33888/mini-blockchain.git>
 
 
 Navigate to the project folder:
